@@ -8,51 +8,57 @@
 </head>
 
 <body>
-  <form action="msj_registro.html" method="get">
-      <p>
-        <label for="nombre">Nombre:<br><input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required></label>
-      </p>
+  <form action="/registro/msj_registro.html" method="get">
+    <p>
+      <label for="nombre">Nombre:<br><input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"
+          required></label>
+    </p>
 
-      <p>
-        <label for="apellido">Apellido:<br><input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required></label>
-      </p>
+    <p>
+      <label for="apellido">Apellido:<br><input type="text" name="apellido" id="apellido"
+          placeholder="Ingrese su apellido" required></label>
+    </p>
 
-      <p>
-        <label for="mail">Correo electrónico:<br><input type="email" name="mail" id="mail" placeholder="Ingrese su correo electrónico" required></label>
-      </p>
+    <p>
+      <label for="mail">Correo electrónico:<br><input type="email" name="mail" id="mail"
+          placeholder="Ingrese su correo electrónico" required></label>
+    </p>
 
-      <p>
-        Sexo:<br>
-        <label><input type="radio" name="sexo" value="femenino" required>Femenino</label><br>
-        <label><input type="radio" name="sexo" value="masculino" required>Masculino</label>
-      </p>
+    <p>
+      Sexo:<br>
+      <label><input type="radio" name="sexo" value="femenino" required>Femenino</label><br>
+      <label><input type="radio" name="sexo" value="masculino" required>Masculino</label>
+    </p>
 
-      <p>
-        <label for="ciudad">Ciudad:</label><br>
-        <select name="ciudad" id="ciudad">
-          <option value="bucaramanga">Bucaramanga</option>
-          <option value="barranquilla" selected>Barranquilla</option>
-          <option value="cali">Cali</option>
-        </select>
-      </p>
+    <p>
+      <label for="ciudad">Ciudad:</label><br>
+      <select name="ciudad" id="ciudad">
+        <option value="bucaramanga">Bucaramanga</option>
+        <option value="barranquilla" selected>Barranquilla</option>
+        <option value="cali">Cali</option>
+      </select>
+    </p>
 
-      <p>
-        <label for="usuario">Nombre de usuario:<br>
-          <input type="text" name="usuario" id="usuario" placeholder="Ingrese su nombre de usuario" minlength="3" required>
-        </label>
-      </p>
+    <p>
+      <label for="usuario">Nombre de usuario:<br>
+        <input type="text" name="usuario" id="usuario" placeholder="Ingrese su nombre de usuario" minlength="3"
+          required>
+      </label>
+    </p>
 
-      <p>
-        <label for="contrasena">Contraseña:<br>
-        <input type="password" name="contrasena" id="contrasena" placeholder="Ingrese su contraseña" minlength="8" required>
-        </label>
-      </p>
+    <p>
+      <label for="contrasena">Contraseña:<br>
+        <input type="password" name="contrasena" id="contrasena" placeholder="Ingrese su contraseña" minlength="8"
+          required>
+      </label>
+    </p>
 
-      <p>
+    <p>
       <button type="submit">Registrarse</button>
-      </p>
+    </p>
 
   </form>
 
 </body>
+
 </html>
