@@ -4,33 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/index/index.css">
+  <link rel="stylesheet" href="../assets/estilo.css">
   <title>Inicio</title>
 </head>
 
 <body>
   <header>
-    <nav>
-      <section id="logo">
-        <img src="/IMG/LOGO-1_m.png" alt="Logo">
-      </section>
-      <section>
-        <ul>
-          <li><a href="/index/index.html">Inicio</a></li>
-          <li><a href="/login/login.html" target="_blank">Ingresar</a></li>
-          <li><a href="/registro/registro.html" target="_blank">Registro</a></li>
-          <li><a href="/contacto/contacto.html">Contáctanos</a></li>
-          <li><a href="/acerca_de_nosotros/nosotros.html" target="_blank">Acerca de nosotros</a></li>
-        </ul>
-        <ul>
-          <form action="lista.html" method="get">
-            <input type="search" name="busqueda" id="busqueda"><button type="submit">Buscar</button>
-          </form>
-        </ul>
-      </section>
-    </nav>
-
+    <div id="contenedor">
+      <nav id="menu">
+        <div id="logo">
+          <img src="/assets/LOGO-1_m.png" alt="Logo">
+        </div>
+        <div id="contenido">
+          <ul>
+            <li><a href="/index/index.html">Inicio</a></li>
+            <li><a href="/login/login.html" target="_blank">Ingresar</a></li>
+            <li><a href="/registro/registro.html" target="_blank">Registro</a></li>
+            <li><a href="/contacto/contacto.html" target="_blank">Contáctanos</a></li>
+            <li><a href="/acerca_de_nosotros/nosotros.html" target="_blank">Acerca de nosotros</a></li>
+          </ul>
+          <ul>
+            <form action="lista.html" method="get">
+              <input type="search" name="busqueda" id="busqueda"><button type="submit">Buscar</button>
+            </form>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
+
 
 </body>
 
