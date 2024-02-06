@@ -1,0 +1,35 @@
+body{
+  background-color: #e0d8d8;
+}
+
+header{
+  height: 100%;
+}
+
+.padre{
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
+#logo{
+  width: 10%;
+  height: 10%;
+  display: inline-block;
+  align-items: center;
+}
+
+#barra_navegacion ul{
+  list-style-type: none;
+  text-align:center;
+}
+
+#barra_navegacion li{
+  text-align: center;
+  display: inline-block;
+
+}
+
+#busqueda{
+  display: inline-block;
+}
