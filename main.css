@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+
+body {
+  background-color: #c2c2c2;
+}
+
+header {
+  background: #1c1c1c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 120px;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 4rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+ul li a:hover {
+  color: red;
+}
