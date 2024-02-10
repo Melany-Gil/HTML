@@ -15,17 +15,13 @@ nav {
     height: 50px;
 }
 
-#contenido {
-    display: flex;
-}
-
 #contenido ul {
     list-style-type: none;
     display: flex;
     margin-right: 20px;
 }
 
-#contenido a {
+#contenido ul li a {
     padding: 20px;
     text-decoration: none;
     color: #ffffff;
